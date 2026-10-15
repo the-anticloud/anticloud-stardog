@@ -1,0 +1,16 @@
+{
+ "framework": "13_FISMA",
+ "title": "FISMA / FIPS 199-200",
+ "project": "STARDOG",
+ "basis": [
+  {
+   "check": "10_nist_sp_800_53",
+   "status": "PASS",
+   "observed": "{\"authority\": \"NIST\", \"control_ids\": [\"AC-3(2)\", \"AC-6(7)\", "
+  }
+ ],
+ "verdict": "CONTROLS EVIDENCED \u2014 all basis checks PASS",
+ "pax_provenance": "Run ID loiskleinner/pax-benchmark-runner v3, 2026-10-02, Kaggle T4 x2 (2x 16GB VRAM), Ubuntu 22.04, Python 3.12. These are PAX L5 Narrow L2 General 27B model-level results \u2014 shared model component, not this project's verdict.",
+ "bench_sha3": "104bef25cba4e9f2b390100a44df266a47851351b9ca653bab79c929b7658e16",
+ "register_sha3": "5a6101193ed24c10760c682d58b2495898e8a3ca0dde19aaf3c683453fd4f166"
+}
